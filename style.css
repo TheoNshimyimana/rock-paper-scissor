@@ -1,0 +1,127 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to top left, #468b97, #22a699);
+}
+h1 {
+  color: #fff;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+img {
+  width: 65px;
+  height: 65px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 2rem 6rem;
+}
+
+p {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 2rem 6rem;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.computer {
+  background-color: bisque;
+}
+.player {
+  background-color: aliceblue;
+}
+.computer,
+.player {
+  padding: 3rem 0;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+.scores {
+  position: relative;
+  bottom: 4rem;
+}
+.scores--0 {
+  bottom: 8rem;
+}
+
+#computer--scores,
+#player--scores {
+  color: tomato;
+  font-size: 65px;
+  font-weight: 300;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  gap: 2rem;
+  margin: 0 9.41rem;
+}
+.img-text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  border: 0.5px solid #9be8d8;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-select {
+  padding: 2rem 0;
+}
+
+.btn-select :hover {
+  transform: scale(1.02);
+}
+
+.btn--rock {
+  background: #fff;
+}
+.btn--paper {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn--scissor {
+  background: #fff;
+}
+
+.btn--new {
+  position: relative;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  bottom: 11rem;
+  left: 50%;
+  margin: 0 9rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 0.3rem;
+}
